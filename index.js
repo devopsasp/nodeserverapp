@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
     res.send("hello user")
 })
 var server = app.listen(5000, function() {
-    console.log("listening on port 5000")
+    //console.log("listening on port 5000")
 })
 
 module.exports = server
